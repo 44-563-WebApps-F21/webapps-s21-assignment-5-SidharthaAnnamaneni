@@ -16,7 +16,7 @@
 <body>
       <div class="row">
         <div class=" col-sm-2" style="background-color:rgb(150, 76, 211);"><p>s</p></div>
-        <div class=" col-sm-2" style="background-color:rgb(150, 76, 211);"><p>a</p></div>
+        <div class=" col-sm-2" style="background-color:rgb(150, 76, 211);"><p>h</p></div>
         <div class=" col-sm-2" style="background-color:rgb(150, 76, 211);"><p>i</p></div>
         <div class=" col-sm-2" style="background-color:rgb(150, 76, 211);"><p>a</p></div>
         <div class=" col-sm-2" style="background-color:rgb(150, 76, 211);"><p>m</p></div>
@@ -24,7 +24,7 @@
       </div>
       <div class="row">
         <div class=" col-md" style="background-color:rgb(11, 150, 73);"><p>snake</p></div>
-        <div class=" col-md" style="background-color:rgb(11, 150, 73);"><p>anaconda</p></div>
+        <div class=" col-md" style="background-color:rgb(11, 150, 73);"><p>hamster</p></div>
         <div class=" col-md" style="background-color:rgb(11, 150, 73);"><p>iguana</p></div>
         <div class=" col-md" style="background-color:rgb(11, 150, 73);"><p>alpaca</p></div>
         <div class=" col-md" style="background-color:rgb(11, 150, 73);"><p>monkey</p></div>
@@ -44,6 +44,77 @@
         <img src="deer.jpg" class="img-thumbnail" alt="deer" width="400" height="400">
       </div>
       <br>
+      <h4 style="padding: 5px,5px;font-family:'Times New Roman', Times, serif">My Table</h4>
+      <table class="table table-hover table-striped" style="width:80%">
+        <style>
+          table, th, td{
+            border-collapse: collapse;
+            border:2px solid greenyellow;
+            border-radius: 10px;
+            border-spacing: 30px;
+          }
+          tr:nth-child(even) {background-color:plum;}
+          tr:nth-child(odd) {background-color:cyan;}
+        </style>
+        
+        <caption>A Summary of Letter,Animal,City,Car details</caption>
+        
+        <thead class = "table-dark">
+          <tr style="text-align: center">
+            <th scope="col">Number of Rows</th>
+            <th scope="col">Letter</th>
+            <th scope="col">Animal</th>
+            <th scope="col">City</th>
+            <th scope="col">Car</th>
+          </tr>
+        </thead>
+        <tbody style="text-align: center; border: 2px; width: 60%;" class="table_body">
+          <tr style="text-align: center; border: 2px;">
+            <th scope="row">1</th>
+            <td>s</td>
+            <td>snake</td>
+            <td>seattle</td>
+            <td>skoda</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>h</td>
+            <td>hamster</td>
+            <td>houston</td>
+            <td>hummer</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>i</td>
+            <td>iguana</td>
+            <td>indiana</td>
+            <td>isuzu</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>a</td>
+            <td>alpaca</td>
+            <td>arlington</td>
+            <td>audi</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>m</td>
+            <td>monkey</td>
+            <td>miami</td>
+            <td>maserati</td>
+          <tr>
+            <th scope="row">3</th>
+            <td>d</td>
+            <td>deer</td>
+            <td>detroit</td>
+            <td>dodge</td>
+          </tr> 
+          </tr>
+        </tbody>
+
+
+      </table>
 
 </body>
 </html>
